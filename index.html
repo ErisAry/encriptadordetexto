@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Encriptador de texto</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
@@ -11,8 +11,28 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     </head>
-    
+
     <body>
+        <header>
+            <div class="caja">
+                <img src="imgs/logoEris.png">
+            </div>        
+        </header>
+        <main>
+            <section class="tutexto">
+                <textarea name="text-area" cols="30" rows="10" placeholder="Ingresa el texto para encriptar"></textarea>
+                <div class="informacion">
+                    <h6>sólo letras minúsculas, sin acentos ni caracteres especiales</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar">Encriptar</button>
+                    <button class="btn-desencriptar">Desencriptar</buttonclass></button>
+                </div>
+            </section>
+            <section class="textoencriptado">
+                <textarea name="texto-encriptado" cols="30" rows="10"> placeholder="Aún no hay texto para encriptar"></textarea>
+            </section>
+        </main>
         <footer>
             <p class="copyright">&copy Copyright Eris2023</p>
         </footer>
