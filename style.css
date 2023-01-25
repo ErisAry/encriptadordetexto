@@ -1,3 +1,39 @@
-*{
-    background: #F3F5FC;
-}  
+header{
+    background: #44B8AF;
+    padding: 20px 0;
+    
+}
+
+.logoEncriptador{
+    position: relativa;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main{
+    background: linear-gradient(#44B8Ae, #2c8d94);
+}
+
+.tutexto{
+    width: 60%;
+    float: left;
+}
+
+.textoencriptado{
+    width: 35%;
+    float: right;
+
+}
+
+footer{
+    background-color: #2c8d94;
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 10px;
+}
+
