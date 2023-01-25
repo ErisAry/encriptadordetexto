@@ -1,28 +1,96 @@
-header{
-    background: #44B8AF;
-    padding: 20px 0;
-    
+body{
+    font-family: 'Poppins';
 }
 
 .logoEncriptador{
-    position: relativa;
+    position: relative;
     margin: 0 auto;
     text-align: center;
 }
 
+header{
+    background: #44B8AF;
+    padding: 20px 0;  
+}
+
 main{
-    background: linear-gradient(#44B8Ae, #2c8d94);
+    display: flex;
+    background: linear-gradient(#44B8Ae, #2c8d94);     
 }
 
 .tutexto{
-    width: 60%;
-    float: left;
+    background: transparent;
+    font-family: 'Poppins';
+    font-style: italic;
+    border: none;
+    color: floralwhite;
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: floralwhite; }
+    .tutexto:focus{
+        outline: none; 
+} 
+
+.disclaimer{
+    color: #1E1E1E;
+    font-size:12px;
+    text-align: center;
 }
 
 .textoencriptado{
-    width: 35%;
-    float: right;
+    background-color: #FAD598;
+    background-image: url("/imgs/encriptado.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    color: #1E1E1E;
+    margin-right: 80px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
 
+.textoencriptado:focus {
+    outline: none;
+}
+
+.botones{
+   display: flex; 
+   margin-top: 18px;
+}
+
+.btn-encriptar{
+    background: #E0E2E1;
+    border: 1px solid #FAD598;
+    border-radius: 5px;
+    color: #1E1E1E;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: #E0E2E1;
+    border: 1px solid #FAD598;
+    border-radius: 5px;
+    color: #1E1E1E;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar-texto{
+    background: #E0E2E1;
+    border: 1px solid #FAD598;
+    border-radius: 5px;
+    color: #1E1E1E;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
 }
 
 footer{
